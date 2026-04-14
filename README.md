@@ -44,12 +44,12 @@ I lead **KannanTech**, a tech-first platform focused on skill acquisition and re
 ### 📊 Intelligence Metrics
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vkannantech&theme=radical" alt="GitHub Stats" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vkannantech&theme=radical" alt="Top Languages" width="48%" />
+  <img src="https://github-stats-alpha.vercel.app/api?username=vkannantech&theme=radical&show_icons=true&border_radius=10" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-one.vercel.app/api/top-langs?username=vkannantech&theme=radical&layout=compact&border_radius=10" alt="Top Languages" width="48%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vkannantech&theme=transparent&border_radius=10&stroke=3498db&ring=3498db&fire=e67e22&currStreakLabel=3498db" alt="GitHub Streak" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vkannantech&theme=radical&border_radius=10&stroke=3498db&ring=3498db&fire=e67e22&currStreakLabel=3498db" alt="GitHub Streak" width="97%" />
 </div>
 
 ---
