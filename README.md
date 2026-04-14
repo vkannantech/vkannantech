@@ -44,8 +44,8 @@ I lead **KannanTech**, a tech-first platform focused on skill acquisition and re
 ### 📊 Intelligence Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vkannantech&show_icons=true&theme=transparent&rank_icon=github&border_radius=10&title_color=3498db&icon_color=3498db&text_color=bdc3c7" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vkannantech&layout=compact&theme=transparent&border_radius=10&title_color=3498db&text_color=bdc3c7" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vkannantech&theme=radical" alt="GitHub Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vkannantech&theme=radical" alt="Top Languages" width="48%" />
 </div>
 
 <div align="center">
