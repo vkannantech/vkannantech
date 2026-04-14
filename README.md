@@ -5,6 +5,7 @@ Description: Professional GitHub profile of Kannan V, Founder & CEO of KannanTec
 -->
 
 <header align="center">
+  <img src="logo.png" alt="Kannan V Premium CEO Logo" width="120px" />
   <h1 id="kannan-v-ceo">Hi 👋, I'm Kannan V</h1>
   <p>🚀 <strong>Founder & CEO of <a href="https://www.kannantech.com">KannanTech</a></strong></p>
   <p><em>Architecting Autonomous Intelligence | Full-Stack Innovator | Global Tech Leadership</em></p>
