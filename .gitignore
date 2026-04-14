@@ -1,0 +1,12 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# MacOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Assets
+stats/
