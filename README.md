@@ -29,12 +29,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/vkannantech/vkannantech/output/github-contribution-grid-snake.svg" alt="Kannan V contribution snake animation" />
-</div>
-
----
-
 ## About Me
 
 <div align="center">
@@ -48,67 +42,6 @@
 | Domains | HealthTech, MusicTech, EdTech, CareerTech, productivity AI |
 
 </div>
-
-```python
-class KannanV:
-    def __init__(self):
-        self.name = "Venkatesh Perumal Kannan"
-        self.alias = "Kannan V | V. Kannan"
-        self.username = "vkannantech"
-        self.location = "Tamil Nadu, India"
-        self.company = "KannanTech"
-        self.role = "Founder & CEO"
-        self.msme_certified = True
-
-        self.stack = {
-            "languages": [
-                "Python", "JavaScript", "TypeScript",
-                "Java", "C/C++", "SQL",
-            ],
-            "frontend": [
-                "React.js", "Next.js", "Tailwind CSS",
-                "HTML5", "CSS3",
-            ],
-            "backend": [
-                "Node.js", "Django", "Spring Boot",
-            ],
-            "ai_ml": [
-                "TensorFlow", "PyTorch", "OpenAI API",
-                "OpenCV", "NLP",
-            ],
-            "cloud_devops": [
-                "AWS", "Docker", "Linux", "GitHub Actions",
-            ],
-            "databases": [
-                "MongoDB", "PostgreSQL", "MySQL",
-                "Redis", "Supabase",
-            ],
-        }
-
-        self.currently_building = [
-            "MediCore - AI hospital intelligence",
-            "Muzi - next-gen music experience",
-            "KalviWorld - developer education",
-            "Internship Hub - cohort automation",
-        ]
-
-        self.achievements = {
-            "students_trained": "15,000+",
-            "placement_rate": "95%",
-            "industry_partners": "50+",
-            "active_cohorts": "40+",
-        }
-
-    def motto(self):
-        return (
-            "Technology is the bridge between "
-            "human imagination and real-world solutions."
-        )
-
-
-me = KannanV()
-print(me.motto())
-```
 
 ---
 
