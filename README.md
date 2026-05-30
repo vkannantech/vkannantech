@@ -1,7 +1,3 @@
-<!--
-SEO: Kannan V, Venkatesh Perumal Kannan, vkannantech, KannanTech, Founder, CEO, AI Specialist, Full Stack Developer, EdTech, HealthTech, MusicTech
--->
- 
 <div align="center">
 
 <a href="https://ceo.kannantech.com">
