@@ -27,6 +27,7 @@ jobs:
           GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           INCLUDE_PRIVATE: ${{ secrets.PROFILE_STATS_TOKEN != '' }}
           PROFILE_USERNAME: vkannantech
+          STREAK_BASELINE: "512"
         run: python scripts/generate_profile_assets.py
 
       - name: Commit generated assets

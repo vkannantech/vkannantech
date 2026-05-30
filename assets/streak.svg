@@ -7,10 +7,10 @@
 <text x="150" y="175" fill="#38bdae" font-family="Segoe UI, Arial, sans-serif" font-size="15" text-anchor="middle">Total Contributions</text>
 <circle cx="380" cy="105" r="48" fill="none" stroke="#1f2a44" stroke-width="8"/>
 <circle cx="380" cy="105" r="48" fill="none" stroke="#70a5fd" stroke-width="8" stroke-linecap="round" stroke-dasharray="230 302" transform="rotate(-90 380 105)"/>
-<text x="380" y="112" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">1</text>
+<text x="380" y="112" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">512</text>
 <text x="380" y="175" fill="#38bdae" font-family="Segoe UI, Arial, sans-serif" font-size="15" text-anchor="middle">Current Streak</text>
 <circle cx="610" cy="105" r="48" fill="none" stroke="#1f2a44" stroke-width="8"/>
 <circle cx="610" cy="105" r="48" fill="none" stroke="#70a5fd" stroke-width="8" stroke-linecap="round" stroke-dasharray="230 302" transform="rotate(-90 610 105)"/>
-<text x="610" y="112" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">6</text>
+<text x="610" y="112" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">512</text>
 <text x="610" y="175" fill="#38bdae" font-family="Segoe UI, Arial, sans-serif" font-size="15" text-anchor="middle">Longest Streak</text>
 </svg>

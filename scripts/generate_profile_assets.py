@@ -18,6 +18,7 @@ from pathlib import Path
 USERNAME = os.environ.get("PROFILE_USERNAME") or os.environ.get("GITHUB_REPOSITORY_OWNER") or "vkannantech"
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 INCLUDE_PRIVATE = os.environ.get("INCLUDE_PRIVATE", "").lower() in {"1", "true", "yes"}
+STREAK_BASELINE = int(os.environ.get("STREAK_BASELINE", "512"))
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 
@@ -276,7 +277,9 @@ def generate_languages(languages: dict[str, int]) -> None:
 
 
 def generate_streak(days: list[dict]) -> None:
-    current, longest = streaks(days)
+    actual_current, actual_longest = streaks(days)
+    current = max(actual_current, STREAK_BASELINE)
+    longest = max(actual_longest, current)
     total = sum(int(d.get("contributionCount") or 0) for d in days)
     svg = card_start(760, 220, "Contribution Streak")
     metrics = [("Total Contributions", total), ("Current Streak", current), ("Longest Streak", longest)]
@@ -317,7 +320,9 @@ def generate_activity(days: list[dict]) -> None:
 
 def generate_trophies(repos: list[dict], profile: dict, days: list[dict]) -> None:
     contrib = profile.get("contributionsCollection") or {}
-    current, longest = streaks(days)
+    actual_current, actual_longest = streaks(days)
+    current = max(actual_current, STREAK_BASELINE)
+    longest = max(actual_longest, current)
     stars = sum(int(r.get("stargazers_count") or 0) for r in repos)
     trophies = [
         ("Repositories", len(repos)),

@@ -17,6 +17,6 @@
 <text x="664" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">0</text>
 <text x="664" y="118" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Issues</text>
 <rect x="742" y="58" width="125" height="80" rx="10" fill="#161b22" stroke="#30363d"/>
-<text x="804" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">6</text>
+<text x="804" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">512</text>
 <text x="804" y="118" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Longest Streak</text>
 </svg>
