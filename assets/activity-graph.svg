@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Contribution Graph">
+<rect width="900" height="280" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="36" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Contribution Graph</text>
+<line x1="52" y1="58" x2="862" y2="58" stroke="#1f2a44" stroke-width="1"/>
+<line x1="52" y1="88" x2="862" y2="88" stroke="#1f2a44" stroke-width="1"/>
+<line x1="52" y1="118" x2="862" y2="118" stroke="#1f2a44" stroke-width="1"/>
+<line x1="52" y1="148" x2="862" y2="148" stroke="#1f2a44" stroke-width="1"/>
+<line x1="52" y1="178" x2="862" y2="178" stroke="#1f2a44" stroke-width="1"/>
+<line x1="52" y1="208" x2="862" y2="208" stroke="#1f2a44" stroke-width="1"/>
+<polyline points="52,133 79,208 107,187 135,208 163,208 191,208 219,198 247,208 275,198 303,176 331,208 359,91 387,187 415,112 443,208 470,208 498,123 526,198 554,198 582,208 610,176 638,144 666,123 694,58 722,187 750,187 778,208 806,198 834,208 862,166" fill="none" stroke="#bf91f3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="52" cy="133" r="4" fill="#38bdae"><title>7 contributions</title></circle>
+<circle cx="79" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="107" cy="187" r="4" fill="#38bdae"><title>2 contributions</title></circle>
+<circle cx="135" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="163" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="191" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="219" cy="198" r="4" fill="#38bdae"><title>1 contributions</title></circle>
+<circle cx="247" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="275" cy="198" r="4" fill="#38bdae"><title>1 contributions</title></circle>
+<circle cx="303" cy="176" r="4" fill="#38bdae"><title>3 contributions</title></circle>
+<circle cx="331" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="359" cy="91" r="4" fill="#38bdae"><title>11 contributions</title></circle>
+<circle cx="387" cy="187" r="4" fill="#38bdae"><title>2 contributions</title></circle>
+<circle cx="415" cy="112" r="4" fill="#38bdae"><title>9 contributions</title></circle>
+<circle cx="443" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="470" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="498" cy="123" r="4" fill="#38bdae"><title>8 contributions</title></circle>
+<circle cx="526" cy="198" r="4" fill="#38bdae"><title>1 contributions</title></circle>
+<circle cx="554" cy="198" r="4" fill="#38bdae"><title>1 contributions</title></circle>
+<circle cx="582" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="610" cy="176" r="4" fill="#38bdae"><title>3 contributions</title></circle>
+<circle cx="638" cy="144" r="4" fill="#38bdae"><title>6 contributions</title></circle>
+<circle cx="666" cy="123" r="4" fill="#38bdae"><title>8 contributions</title></circle>
+<circle cx="694" cy="58" r="4" fill="#38bdae"><title>14 contributions</title></circle>
+<circle cx="722" cy="187" r="4" fill="#38bdae"><title>2 contributions</title></circle>
+<circle cx="750" cy="187" r="4" fill="#38bdae"><title>2 contributions</title></circle>
+<circle cx="778" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="806" cy="198" r="4" fill="#38bdae"><title>1 contributions</title></circle>
+<circle cx="834" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="862" cy="166" r="4" fill="#38bdae"><title>4 contributions</title></circle>
+<text x="52" y="236" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="12">Last 30 days, generated from GitHub contribution data</text>
+</svg>

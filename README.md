@@ -120,12 +120,8 @@ print(me.motto())
 
 <div align="center">
 
-<a href="https://github.com/vkannantech">
-  <img height="170em" src="https://github-readme-stats-one.vercel.app/api?username=vkannantech&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10" alt="Kannan V GitHub stats" />
-</a>
-<a href="https://github.com/vkannantech">
-  <img height="170em" src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=vkannantech&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Kannan V top languages" />
-</a>
+<img height="300" src="assets/github-stats.svg" alt="Kannan V GitHub stats" />
+<img height="300" src="assets/top-languages.svg" alt="Kannan V top languages" />
 
 </div>
 
@@ -133,7 +129,7 @@ print(me.motto())
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=vkannantech&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10)](https://github.com/vkannantech)
+<img src="assets/streak.svg" alt="Kannan V contribution streak" />
 
 </div>
 
@@ -141,7 +137,7 @@ print(me.motto())
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vkannantech&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true)](https://github.com/vkannantech)
+<img src="assets/activity-graph.svg" alt="Kannan V contribution graph" />
 
 </div>
 
@@ -149,7 +145,7 @@ print(me.motto())
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.screw-hand.vercel.app/?username=vkannantech&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=8)](https://github.com/vkannantech)
+<img src="assets/trophies.svg" alt="Kannan V GitHub trophies" />
 
 </div>
 

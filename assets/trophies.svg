@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170" role="img" aria-label="GitHub Trophies">
+<rect width="900" height="170" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="36" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">GitHub Trophies</text>
+<rect x="42" y="58" width="125" height="80" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="104" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">40</text>
+<text x="104" y="118" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Repositories</text>
+<rect x="182" y="58" width="125" height="80" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="244" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">6</text>
+<text x="244" y="118" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Stars</text>
+<rect x="322" y="58" width="125" height="80" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="384" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">268</text>
+<text x="384" y="118" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Commits</text>
+<rect x="462" y="58" width="125" height="80" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="524" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">3</text>
+<text x="524" y="118" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Pull Requests</text>
+<rect x="602" y="58" width="125" height="80" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="664" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">0</text>
+<text x="664" y="118" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Issues</text>
+<rect x="742" y="58" width="125" height="80" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="804" y="92" fill="#f1c40f" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">6</text>
+<text x="804" y="118" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Longest Streak</text>
+</svg>
