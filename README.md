@@ -49,8 +49,16 @@
 
 <div align="center">
 
-<img height="300" src="assets/github-stats.svg" alt="Kannan V GitHub stats" />
-<img height="300" src="assets/top-languages.svg" alt="Kannan V top languages" />
+<table>
+  <tr>
+    <td width="58%" align="center">
+      <img width="100%" src="assets/github-stats.svg" alt="Kannan V GitHub stats" />
+    </td>
+    <td width="42%" align="center">
+      <img width="100%" src="assets/top-languages.svg" alt="Kannan V top languages" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
