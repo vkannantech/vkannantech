@@ -235,16 +235,51 @@ Web3                  -> Smart contracts, IPFS, DeFi patterns
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ceo.kannantech.com-70A5FD?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ceo.kannantech.com)
-[![KannanTech](https://img.shields.io/badge/Company-kannantech.com-BF91F3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.kannantech.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vkannantech-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vkannantech)
-[![Twitter](https://img.shields.io/badge/Twitter-%40vkannantech-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/vkannantech)
-[![YouTube](https://img.shields.io/badge/YouTube-KannanTech-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@KannanTechOfficial)
-[![Instagram](https://img.shields.io/badge/Instagram-v__kannan__512-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/v_kannan_512)
-[![Telegram](https://img.shields.io/badge/Telegram-KalviWorldOfficial-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/KalviWorldOfficial)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B917868936693-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/917868936693)
-[![Email](https://img.shields.io/badge/Email-ceo%40kannantech.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ceo@kannantech.com)
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff6b6b?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/vkannantech)
+<strong>Open for product collaborations, AI systems, developer education, and strategic technology partnerships.</strong>
+
+<br />
+<br />
+
+<table>
+  <tr>
+    <td align="center" width="220">
+      <strong>Executive</strong><br />
+      <a href="https://ceo.kannantech.com">Portfolio</a><br />
+      <a href="https://www.kannantech.com">KannanTech</a><br />
+      <a href="mailto:ceo@kannantech.com">ceo@kannantech.com</a>
+    </td>
+    <td align="center" width="220">
+      <strong>Professional</strong><br />
+      <a href="https://www.linkedin.com/in/vkannantech">LinkedIn</a><br />
+      <a href="https://x.com/vkannantech">Twitter / X</a><br />
+      <a href="https://github.com/sponsors/vkannantech">GitHub Sponsors</a>
+    </td>
+    <td align="center" width="220">
+      <strong>Community</strong><br />
+      <a href="https://youtube.com/@KannanTechOfficial">YouTube</a><br />
+      <a href="https://t.me/KalviWorldOfficial">Telegram</a><br />
+      <a href="https://instagram.com/v_kannan_512">Instagram</a>
+    </td>
+    <td align="center" width="220">
+      <strong>Direct</strong><br />
+      <a href="https://wa.me/917868936693">WhatsApp</a><br />
+      <a href="mailto:ceo@kannantech.com">Email</a><br />
+      <a href="https://github.com/vkannantech">GitHub</a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<a href="https://ceo.kannantech.com">
+  <img src="https://img.shields.io/badge/Portfolio-ceo.kannantech.com-70A5FD?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://www.linkedin.com/in/vkannantech">
+  <img src="https://img.shields.io/badge/LinkedIn-vkannantech-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:ceo@kannantech.com">
+  <img src="https://img.shields.io/badge/Email-ceo%40kannantech.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
 </div>
 
