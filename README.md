@@ -6,9 +6,14 @@ Description: Professional GitHub profile of Kannan V, Founder & CEO of KannanTec
 
 <div align="center">
 
-<img src="logo.png" alt="Kannan V Premium CEO Logo" width="120px" />
+<a href="https://ceo.kannantech.com">
+  <img src="avatar.png" alt="Kannan V" width="145" />
+</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kannan%20V&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Architecting%20Autonomous%20Intelligence%20%7C%20Full-Stack%20Innovator%20%7C%20Global%20Tech%20Leadership&descAlignY=62&descSize=16" width="100%" alt="Kannan V profile header" />
+<br />
+<br />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=header&text=Kannan%20V&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Architecting%20Autonomous%20Intelligence%20%7C%20Full-Stack%20Innovator%20%7C%20Global%20Tech%20Leadership&descAlignY=62&descSize=16" width="100%" alt="Kannan V profile header" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=850&lines=Founder+%26+CEO+%40+KannanTech;Full-Stack+Developer+%7C+AI+Specialist;Building+AI-First+Products+at+Scale;EdTech+%7C+HealthTech+%7C+MusicTech+Visionary;Turning+Ideas+into+Real-World+Impact)](https://ceo.kannantech.com)
 
@@ -35,7 +40,17 @@ Description: Professional GitHub profile of Kannan V, Founder & CEO of KannanTec
 
 ## About Me
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Developer animation" />
+<div align="center">
+
+| Identity | Builder Profile |
+| --- | --- |
+| Name | Venkatesh Perumal Kannan |
+| Public Brand | Kannan V / vkannantech |
+| Role | Founder & CEO @ KannanTech |
+| Focus | AI-first products, full-stack systems, developer education |
+| Domains | HealthTech, MusicTech, EdTech, CareerTech, productivity AI |
+
+</div>
 
 ```python
 class KannanV:
@@ -94,13 +109,15 @@ print(me.motto())
 
 ---
 
-## Executive Dashboard
+## Professional Dashboard
 
 <div align="center">
 
 ![Professional Network](https://img.shields.io/github/followers/vkannantech?label=Professional%20Network&style=for-the-badge&color=2ecc71&logo=github)
 ![Global Impact](https://img.shields.io/github/stars/vkannantech?label=Global%20Impact&style=for-the-badge&color=f1c40f&logo=github)
-![Project Portfolio](https://img.shields.io/github/repo-count/vkannantech?label=Project%20Portfolio&style=for-the-badge&color=3498db&logo=github)
+![Project Portfolio](https://img.shields.io/badge/Project%20Portfolio-Active%20Builder-3498db?style=for-the-badge&logo=github)
+![MSME Certified](https://img.shields.io/badge/MSME-Certified-38bdae?style=for-the-badge&logo=googleclassroom&logoColor=white)
+![AI Products](https://img.shields.io/badge/AI%20Products-Live%20%26%20Deployed-bf91f3?style=for-the-badge&logo=openai&logoColor=white)
 
 </div>
 
@@ -158,22 +175,25 @@ print(me.motto())
 
 ---
 
-## GitHub Intelligence & Performance
+## GitHub Stats & Activity
 
 <div align="center">
 
 <a href="https://github.com/vkannantech">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vkannantech&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10" alt="Kannan V GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats-one.vercel.app/api?username=vkannantech&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10" alt="Kannan V GitHub Stats" />
 </a>
 <a href="https://github.com/vkannantech">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vkannantech&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Kannan V Top Languages" />
+  <img height="180em" src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=vkannantech&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Kannan V Top Languages" />
 </a>
+
+<br />
+<br />
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=vkannantech&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10)](https://github.com/vkannantech)
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vkannantech&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true)](https://github.com/vkannantech)
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=vkannantech&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4)](https://github.com/vkannantech)
+[![GitHub Trophies](https://github-profile-trophy.screw-hand.vercel.app/?username=vkannantech&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4)](https://github.com/vkannantech)
 
 </div>
 
@@ -914,7 +934,7 @@ Web3 & Decentralized Apps  -> Smart contracts, IPFS, DeFi patterns
 
 *"Behind all these skills, I'm still the same Kannan - a dreamer who builds, learns, and grows."*
 
-**Kannan V | Founder & CEO @ KannanTech**
+**Kannan V | CEO @ KannanTech**
 
 **© 2026 Kannan V | KannanTech**
 
