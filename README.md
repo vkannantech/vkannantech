@@ -221,16 +221,63 @@
 
 ### Currently Learning
 
-```text
-Autonomous AI Agents  -> Multi-agent orchestration, ReAct, tool-use workflows
-Advanced LLM Eng.     -> Fine-tuning, RAG, LangChain, vector databases
-Computer Vision       -> OpenCV, object detection, real-time inference
-Edge AI               -> TensorFlow Lite, ONNX, on-device inference
-Cloud-Native          -> Kubernetes, serverless, distributed systems
-System Design         -> Microservices, event-driven architecture, CQRS
-AI Product Strategy   -> MLOps, model monitoring, AI roadmapping
-Web3                  -> Smart contracts, IPFS, DeFi patterns
-```
+<div align="center">
+
+<table>
+  <tr>
+    <th align="left">Focus Area</th>
+    <th align="left">Current Depth</th>
+    <th align="left">Applied Direction</th>
+  </tr>
+  <tr>
+    <td><strong>Autonomous AI Agents</strong></td>
+    <td>Multi-agent orchestration, ReAct, tool-use workflows</td>
+    <td>AI assistants, workflow automation, intelligent product systems</td>
+  </tr>
+  <tr>
+    <td><strong>Advanced LLM Engineering</strong></td>
+    <td>Fine-tuning, RAG, LangChain, vector databases</td>
+    <td>Domain-aware search, AI resume tools, knowledge platforms</td>
+  </tr>
+  <tr>
+    <td><strong>Computer Vision</strong></td>
+    <td>OpenCV, object detection, real-time inference</td>
+    <td>Healthcare intelligence, visual automation, inspection systems</td>
+  </tr>
+  <tr>
+    <td><strong>Edge AI</strong></td>
+    <td>TensorFlow Lite, ONNX, on-device inference</td>
+    <td>Fast local models, low-latency AI, offline-capable products</td>
+  </tr>
+  <tr>
+    <td><strong>Cloud-Native Systems</strong></td>
+    <td>Kubernetes, serverless, distributed systems</td>
+    <td>Scalable SaaS, reliable deployments, production operations</td>
+  </tr>
+  <tr>
+    <td><strong>System Design</strong></td>
+    <td>Microservices, event-driven architecture, CQRS</td>
+    <td>High-scale platforms, clean service boundaries, resilient APIs</td>
+  </tr>
+  <tr>
+    <td><strong>AI Product Strategy</strong></td>
+    <td>MLOps, model monitoring, AI roadmapping</td>
+    <td>Production-ready AI products with measurable business impact</td>
+  </tr>
+  <tr>
+    <td><strong>Web3 Foundations</strong></td>
+    <td>Smart contracts, IPFS, DeFi patterns</td>
+    <td>Decentralized application experiments and future-ready systems</td>
+  </tr>
+</table>
+
+<br />
+
+<img src="https://img.shields.io/badge/AI%20Agents-Active%20Learning-70A5FD?style=for-the-badge&logo=openai&logoColor=white" alt="AI Agents" />
+<img src="https://img.shields.io/badge/Cloud%20Native-Scaling%20Systems-38BDAE?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Cloud Native" />
+<img src="https://img.shields.io/badge/System%20Design-Production%20Architecture-BF91F3?style=for-the-badge&logo=diagramdotnet&logoColor=white" alt="System Design" />
+
+</div>
 
 ---
 
