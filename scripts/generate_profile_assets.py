@@ -325,20 +325,30 @@ def generate_trophies(repos: list[dict], profile: dict, days: list[dict]) -> Non
     longest = max(actual_longest, current)
     stars = sum(int(r.get("stargazers_count") or 0) for r in repos)
     trophies = [
-        ("Repositories", len(repos)),
-        ("Stars", stars),
-        ("Commits", contrib.get("totalCommitContributions") or 0),
-        ("Pull Requests", contrib.get("totalPullRequestContributions") or 0),
-        ("Issues", contrib.get("totalIssueContributions") or 0),
-        ("Longest Streak", longest),
+        ("Repositories", len(repos), "Archive"),
+        ("Stars", stars, "Stargazer"),
+        ("Commits", contrib.get("totalCommitContributions") or 0, "Code Flow"),
+        ("Pull Requests", contrib.get("totalPullRequestContributions") or 0, "Merge Pro"),
+        ("Issues", contrib.get("totalIssueContributions") or 0, "Problem Solver"),
+        ("Longest Streak", longest, "Consistency"),
     ]
-    svg = card_start(900, 170, "GitHub Trophies")
-    x = 42
-    for label, value in trophies:
-        svg.append(f'<rect x="{x}" y="58" width="125" height="80" rx="10" fill="#161b22" stroke="{BORDER}"/>')
-        svg.append(f'<text x="{x + 62}" y="92" fill="{YELLOW}" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">{esc(value)}</text>')
-        svg.append(f'<text x="{x + 62}" y="118" fill="{TEXT}" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">{esc(label)}</text>')
-        x += 140
+    svg = card_start(930, 250, "GitHub Trophy Wall")
+    svg.append(f'<text x="24" y="58" fill="{MUTED}" font-family="Segoe UI, Arial, sans-serif" font-size="12">Generated from local GitHub API data</text>')
+    x = 32
+    for idx, (label, value, title) in enumerate(trophies):
+        trophy_x = x + 58
+        color = [YELLOW, BLUE, PURPLE, TEAL, "#ff8c42", "#f778ba"][idx % 6]
+        svg.append(f'<rect x="{x}" y="78" width="135" height="132" rx="14" fill="#161b22" stroke="{BORDER}"/>')
+        svg.append(f'<circle cx="{trophy_x}" cy="118" r="34" fill="#101722" stroke="{color}" stroke-width="3"/>')
+        svg.append(f'<path d="M {trophy_x - 18} 104 H {trophy_x + 18} V 124 C {trophy_x + 18} 136 {trophy_x - 18} 136 {trophy_x - 18} 124 Z" fill="{color}"/>')
+        svg.append(f'<path d="M {trophy_x - 18} 109 H {trophy_x - 33} C {trophy_x - 34} 126 {trophy_x - 24} 130 {trophy_x - 18} 130" fill="none" stroke="{color}" stroke-width="4" stroke-linecap="round"/>')
+        svg.append(f'<path d="M {trophy_x + 18} 109 H {trophy_x + 33} C {trophy_x + 34} 126 {trophy_x + 24} 130 {trophy_x + 18} 130" fill="none" stroke="{color}" stroke-width="4" stroke-linecap="round"/>')
+        svg.append(f'<rect x="{trophy_x - 8}" y="136" width="16" height="14" rx="3" fill="{color}"/>')
+        svg.append(f'<rect x="{trophy_x - 24}" y="150" width="48" height="8" rx="4" fill="{color}"/>')
+        svg.append(f'<text x="{trophy_x}" y="174" fill="{TEXT}" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">{esc(value)}</text>')
+        svg.append(f'<text x="{trophy_x}" y="193" fill="{BLUE}" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">{esc(title)}</text>')
+        svg.append(f'<text x="{trophy_x}" y="206" fill="{MUTED}" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="middle">{esc(label)}</text>')
+        x += 148
     svg.append(card_end())
     write(ASSETS / "trophies.svg", "\n".join(svg))
 
