@@ -292,7 +292,7 @@
 ## Execution Stream
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [Focus Edge for Brave v1.1.0](https://github.com/vkannantech/focus-edge-brave/releases/tag/v1.1.0) in [vkannantech/focus-edge-brave](https://github.com/vkannantech/focus-edge-brave)
+1. ❗ Opened issue [#265](https://github.com/VERT-sh/VERT/issues/265) in [VERT-sh/VERT](https://github.com/VERT-sh/VERT)
 <!--END_SECTION:activity-->
 
 ---
