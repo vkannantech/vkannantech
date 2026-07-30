@@ -6,7 +6,7 @@
 <text x="470" y="72" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">17</text>
 <circle cx="32" cy="93" r="5" fill="#bf91f3"/>
 <text x="48" y="98" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Total Stars</text>
-<text x="470" y="98" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">6</text>
+<text x="470" y="98" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">5</text>
 <circle cx="32" cy="119" r="5" fill="#bf91f3"/>
 <text x="48" y="124" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Total Forks</text>
 <text x="470" y="124" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">1</text>
