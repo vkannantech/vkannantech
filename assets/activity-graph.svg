@@ -7,7 +7,7 @@
 <line x1="52" y1="148" x2="862" y2="148" stroke="#1f2a44" stroke-width="1"/>
 <line x1="52" y1="178" x2="862" y2="178" stroke="#1f2a44" stroke-width="1"/>
 <line x1="52" y1="208" x2="862" y2="208" stroke="#1f2a44" stroke-width="1"/>
-<polyline points="52,58 79,186 107,148 135,186 163,148 191,171 219,178 247,163 275,186 303,178 331,193 359,201 387,186 415,178 443,201 470,201 498,163 526,133 554,156 582,178 610,201 638,171 666,171 694,126 722,156 750,193 778,163 806,208 834,208 862,208" fill="none" stroke="#bf91f3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="52,58 79,186 107,148 135,186 163,148 191,171 219,178 247,163 275,186 303,178 331,193 359,201 387,186 415,178 443,201 470,201 498,163 526,133 554,156 582,178 610,201 638,171 666,171 694,126 722,156 750,193 778,163 806,208 834,208 862,178" fill="none" stroke="#bf91f3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="52" cy="58" r="4" fill="#38bdae"><title>20 contributions</title></circle>
 <circle cx="79" cy="186" r="4" fill="#38bdae"><title>3 contributions</title></circle>
 <circle cx="107" cy="148" r="4" fill="#38bdae"><title>8 contributions</title></circle>
@@ -37,6 +37,6 @@
 <circle cx="778" cy="163" r="4" fill="#38bdae"><title>6 contributions</title></circle>
 <circle cx="806" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
 <circle cx="834" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
-<circle cx="862" cy="208" r="4" fill="#38bdae"><title>0 contributions</title></circle>
+<circle cx="862" cy="178" r="4" fill="#38bdae"><title>4 contributions</title></circle>
 <text x="52" y="236" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="12">Last 30 days, generated from GitHub contribution data</text>
 </svg>
