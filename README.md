@@ -41,11 +41,11 @@ AI-native data visualisation, analytics and observability platform: a self-hoste
 - Security by design: read-only query sandbox with timeouts and row caps, **AES-256** encrypted credentials, zero telemetry. One-command **Docker** install.
 - `TypeScript` `Angular` `NestJS` `Fastify` `DuckDB` `Apache ECharts` `Docker` `AGPL-3.0`
 
-### FX Competency Portal · *in active development*
+### [FX Competency Portal](https://competency.fxcams.in) · [Live ↗](https://competency.fxcams.in)
 Skill-assessment platform for colleges: aptitude and coding exams with slot booking, results and placement tracking.
 - Coding questions are auto-graded through a **Judge0** code-execution integration; exams run inside **Safe Exam Browser** lockdown to prevent cheating.
 - Monorepo built with **Turborepo**: **Next.js 16** frontend, **Fastify** (Node.js) API, **PostgreSQL 18** database.
-- `TypeScript` `Next.js` `Fastify` `PostgreSQL` `Turborepo` · *Source private (institutional project), walkthrough on request*
+- `TypeScript` `Next.js` `Fastify` `PostgreSQL` `Turborepo` · *Source private (institutional project), code walkthrough on request*
 
 ### [Library Management System API](https://github.com/vkannantech/library-management-system) · [Live API docs ↗](https://vkannantech.github.io/library-management-system/)
 Backend REST API for managing books, members and loans.
@@ -70,7 +70,7 @@ Computer-networks toolkit: diagnostic CLI utilities (ping, tracert, netstat), so
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [Focus Edge](https://github.com/vkannantech/focus-edge-brave) | Auto-hiding toolbar and distraction-free mode for Chromium browsers | JavaScript · Chrome Extension (Manifest V3) |
-| [Muzi](https://github.com/Muzi-Powered-by-KannanTech/Muzi) | Android music player with lyrics and metadata modules | Kotlin · C++ |
+| [Muzi](https://github.com/Muzi-Powered-by-KannanTech/Muzi) | Extended fork of the open-source InnerTune player for Android (local + YouTube Music) | Kotlin · GPL-3.0 |
 | [Currency Detection](https://github.com/vkannantech/Curency_Detection) | Image-based currency note recognition | Python · Computer Vision |
 
 </details>

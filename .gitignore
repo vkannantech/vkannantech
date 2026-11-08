@@ -13,3 +13,6 @@ stats/
 
 # Python
 __pycache__/
+
+# Portfolio site lives here locally but is its own repo (vkannantech/CEOProfile)
+modernprofile/
