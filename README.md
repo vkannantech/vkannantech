@@ -26,13 +26,22 @@ I design and ship web platforms end to end: database schema, REST APIs, auth, fr
 | --- | --- |
 | **Roles I'm targeting** | Full-Stack Developer · Java Backend Developer · Software Engineer (SDE) Intern |
 | **Availability** | Internships now · Full-time from 2028 · Anywhere in India or remote |
-| **Core stack** | Java · Spring Boot · TypeScript · Next.js · React · Node.js · PostgreSQL · MySQL |
-| **Strongest at** | REST API design, relational data modelling, full-stack product delivery |
+| **Core stack** | Java · Spring Boot · TypeScript · Angular · NestJS · Next.js · React · PostgreSQL · MySQL |
+| **Strongest at** | REST API design, relational data modelling, full-stack product delivery, open-source releases |
 | **Company** | KannanTech, MSME Udyam-registered Micro enterprise (`UDYAM-TN-18-0078156`) |
 
 ## 🚀 Featured projects
 
-### FX Competency Portal · *flagship, in active development*
+### [Paarvix](https://github.com/KannanTechOfficial/PAARVIX) · *open source, [v0.1.0-alpha](https://github.com/KannanTechOfficial/PAARVIX/releases/tag/v0.1.0-alpha)*
+AI-native data visualisation, analytics and observability platform: a self-hosted alternative to Grafana and Metabase.
+*Paarvai* (பார்வை) means "vision" in Tamil.
+- Connects **Excel, Google Sheets, MySQL, MariaDB and PostgreSQL**, with native Indian-locale parsing (₹ lakh/crore, DD-MM-YYYY) and a Tamil interface.
+- Time-series engine using **LTTB downsampling** to reduce 10,000 raw points to 500 chart points while preserving peaks and dips.
+- **Bilingual AI copilot** (English and Tamil) that turns natural-language questions into read-only queries. Works with OpenAI, Gemini, Anthropic or a local Ollama model.
+- Security by design: read-only query sandbox with timeouts and row caps, **AES-256** encrypted credentials, zero telemetry. One-command **Docker** install.
+- `TypeScript` `Angular` `NestJS` `Fastify` `DuckDB` `Apache ECharts` `Docker` `AGPL-3.0`
+
+### FX Competency Portal · *in active development*
 Skill-assessment platform for colleges: aptitude and coding exams with slot booking, results and placement tracking.
 - Coding questions are auto-graded through a **Judge0** code-execution integration; exams run inside **Safe Exam Browser** lockdown to prevent cheating.
 - Monorepo built with **Turborepo**: **Next.js 16** frontend, **Fastify** (Node.js) API, **PostgreSQL 18** database.
@@ -71,9 +80,9 @@ Computer-networks toolkit: diagnostic CLI utilities (ping, tracert, netstat), so
 | Area | Skills |
 | --- | --- |
 | **Languages** | Java, TypeScript, JavaScript (ES6+), Python, Kotlin, Dart, SQL |
-| **Backend** | Spring Boot, Hibernate / JPA, Node.js, Fastify, REST APIs, OpenAPI / Swagger |
-| **Frontend** | React, Next.js, Tailwind CSS, HTML5, CSS3 |
-| **Databases** | PostgreSQL, MySQL, Supabase |
+| **Backend** | Spring Boot, Hibernate / JPA, Node.js, NestJS, Fastify, REST APIs, OpenAPI / Swagger |
+| **Frontend** | Angular, React, Next.js, Apache ECharts, Tailwind CSS, SCSS, HTML5 |
+| **Databases** | PostgreSQL, MySQL, MariaDB, DuckDB, Supabase |
 | **Mobile** | Android (Kotlin), Flutter |
 | **Tools & DevOps** | Git, GitHub Actions (CI/CD), Docker, Linux, Vercel, Turborepo |
 | **CS fundamentals** | Data Structures & Algorithms, OOP, DBMS, Computer Networks |
@@ -81,7 +90,7 @@ Computer-networks toolkit: diagnostic CLI utilities (ping, tracert, netstat), so
 ## 👋 About me
 
 **Kannan V** (Venkatesh Perumal Kannan, GitHub [@vkannantech](https://github.com/vkannantech)) is a full-stack and Java backend developer
-from Tirunelveli, Tamil Nadu, India, and an Information Technology (IT) undergraduate graduating in 2028. He founded **KannanTech**, an
+from Tirunelveli, Tamil Nadu, India, and an Information Technology (IT) undergraduate graduating in 2028. He is the creator of [Paarvix](https://github.com/KannanTechOfficial/PAARVIX), an open-source analytics and observability platform, and founded **KannanTech**, an
 MSME Udyam-registered Micro enterprise ([verify](https://udyamregistration.gov.in/Udyam_Verify.aspx), `UDYAM-TN-18-0078156`) providing
 software services and technical education since 2024, and teaches programming on the
 [Kalvi World YouTube channel](https://www.youtube.com/@KalviWorldOfficial). He is open to software engineering internships and to full-time roles from 2028.
