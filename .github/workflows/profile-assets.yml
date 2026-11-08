@@ -2,11 +2,10 @@ name: Generate profile assets
 
 on:
   schedule:
-    - cron: "30 */3 * * *"
+    - cron: "30 0 * * *" # daily
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
       - "scripts/generate_profile_assets.py"
       - ".github/workflows/profile-assets.yml"
@@ -17,25 +16,23 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - name: Generate local README stat assets
+      - name: Generate stat cards
         env:
           GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           INCLUDE_PRIVATE: ${{ secrets.PROFILE_STATS_TOKEN != '' }}
           PROFILE_USERNAME: vkannantech
-          STREAK_BASELINE: "512"
         run: python scripts/generate_profile_assets.py
 
-      - name: Commit generated assets
+      - name: Commit if changed
         run: |
           if [[ -n "$(git status --porcelain assets)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add assets
-            git commit -m "Update profile assets"
+            git commit -m "chore: refresh profile stats"
+            git pull --rebase
             git push
           fi

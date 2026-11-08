@@ -10,3 +10,6 @@ desktop.ini
 
 # Assets
 stats/
+
+# Python
+__pycache__/

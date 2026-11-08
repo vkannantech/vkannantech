@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300" role="img" aria-label="vkannantech&#x27;s GitHub Stats">
-<rect width="520" height="300" rx="12" fill="#0d1117" stroke="#30363d"/>
-<text x="24" y="36" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">vkannantech&#x27;s GitHub Stats</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="272" viewBox="0 0 520 272" role="img" aria-label="GitHub Activity">
+<rect width="520" height="272" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="36" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">GitHub Activity</text>
 <circle cx="32" cy="67" r="5" fill="#bf91f3"/>
 <text x="48" y="72" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Public Repositories</text>
 <text x="470" y="72" fill="#70a5fd" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">20</text>

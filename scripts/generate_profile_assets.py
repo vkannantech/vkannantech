@@ -18,7 +18,12 @@ from pathlib import Path
 USERNAME = os.environ.get("PROFILE_USERNAME") or os.environ.get("GITHUB_REPOSITORY_OWNER") or "vkannantech"
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 INCLUDE_PRIVATE = os.environ.get("INCLUDE_PRIVATE", "").lower() in {"1", "true", "yes"}
-STREAK_BASELINE = int(os.environ.get("STREAK_BASELINE", "512"))
+# Repos whose bundled/vendored code would distort the language card.
+LANG_EXCLUDE = {
+    name.strip().lower()
+    for name in os.environ.get("LANG_EXCLUDE_REPOS", "ViralTube,clivon").split(",")
+    if name.strip()
+}
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 
@@ -183,6 +188,8 @@ def fetch_profile() -> tuple[list[dict], dict, dict]:
 def fetch_languages(repos: list[dict]) -> dict[str, int]:
     totals: dict[str, int] = defaultdict(int)
     for repo in repos:
+        if (repo.get("name") or "").lower() in LANG_EXCLUDE:
+            continue
         url = repo.get("languages_url")
         if not url:
             continue
@@ -203,27 +210,6 @@ def contribution_days(profile: dict) -> list[dict]:
         days.extend(week.get("contributionDays") or [])
     return days
 
-
-def streaks(days: list[dict]) -> tuple[int, int]:
-    counts = {d["date"]: int(d.get("contributionCount") or 0) for d in days if d.get("date")}
-    if not counts:
-        return 0, 0
-    today = dt.date.today()
-    current = 0
-    day = today
-    while counts.get(day.isoformat(), 0) > 0:
-        current += 1
-        day -= dt.timedelta(days=1)
-
-    longest = 0
-    running = 0
-    for key in sorted(counts):
-        if counts[key] > 0:
-            running += 1
-            longest = max(longest, running)
-        else:
-            running = 0
-    return current, longest
 
 
 def generate_stats(repos: list[dict], profile: dict, extra: dict) -> None:
@@ -247,7 +233,8 @@ def generate_stats(repos: list[dict], profile: dict, extra: dict) -> None:
         ("Code Reviews", reviews),
     ]
 
-    svg = card_start(520, 300, f"{USERNAME}'s GitHub Stats")
+    rows = [(label, value) for label, value in rows if value]
+    svg = card_start(520, 64 + 26 * len(rows), "GitHub Activity")
     y = 72
     for label, value in rows:
         svg.append(f'<circle cx="32" cy="{y - 5}" r="5" fill="{PURPLE}"/>')
@@ -276,22 +263,6 @@ def generate_languages(languages: dict[str, int]) -> None:
     write(ASSETS / "top-languages.svg", "\n".join(svg))
 
 
-def generate_streak(days: list[dict]) -> None:
-    actual_current, actual_longest = streaks(days)
-    current = max(actual_current, STREAK_BASELINE)
-    longest = max(actual_longest, current)
-    total = sum(int(d.get("contributionCount") or 0) for d in days)
-    svg = card_start(760, 220, "Contribution Streak")
-    metrics = [("Total Contributions", total), ("Current Streak", current), ("Longest Streak", longest)]
-    xs = [150, 380, 610]
-    for x, (label, value) in zip(xs, metrics):
-        svg.append(f'<circle cx="{x}" cy="105" r="48" fill="none" stroke="#1f2a44" stroke-width="8"/>')
-        svg.append(f'<circle cx="{x}" cy="105" r="48" fill="none" stroke="{BLUE}" stroke-width="8" stroke-linecap="round" stroke-dasharray="230 302" transform="rotate(-90 {x} 105)"/>')
-        svg.append(f'<text x="{x}" y="112" fill="{TEXT}" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">{esc(value)}</text>')
-        svg.append(f'<text x="{x}" y="175" fill="{TEAL}" font-family="Segoe UI, Arial, sans-serif" font-size="15" text-anchor="middle">{esc(label)}</text>')
-    svg.append(card_end())
-    write(ASSETS / "streak.svg", "\n".join(svg))
-
 
 def generate_activity(days: list[dict]) -> None:
     recent = days[-30:] if days else []
@@ -318,39 +289,6 @@ def generate_activity(days: list[dict]) -> None:
     write(ASSETS / "activity-graph.svg", "\n".join(svg))
 
 
-def generate_trophies(repos: list[dict], profile: dict, days: list[dict]) -> None:
-    contrib = profile.get("contributionsCollection") or {}
-    actual_current, actual_longest = streaks(days)
-    current = max(actual_current, STREAK_BASELINE)
-    longest = max(actual_longest, current)
-    stars = sum(int(r.get("stargazers_count") or 0) for r in repos)
-    trophies = [
-        ("Repositories", len(repos), "Archive"),
-        ("Stars", stars, "Stargazer"),
-        ("Commits", contrib.get("totalCommitContributions") or 0, "Code Flow"),
-        ("Pull Requests", contrib.get("totalPullRequestContributions") or 0, "Merge Pro"),
-        ("Issues", contrib.get("totalIssueContributions") or 0, "Problem Solver"),
-        ("Longest Streak", longest, "Consistency"),
-    ]
-    svg = card_start(930, 250, "GitHub Trophy Wall")
-    svg.append(f'<text x="24" y="58" fill="{MUTED}" font-family="Segoe UI, Arial, sans-serif" font-size="12">Generated from local GitHub API data</text>')
-    x = 32
-    for idx, (label, value, title) in enumerate(trophies):
-        trophy_x = x + 58
-        color = [YELLOW, BLUE, PURPLE, TEAL, "#ff8c42", "#f778ba"][idx % 6]
-        svg.append(f'<rect x="{x}" y="78" width="135" height="132" rx="14" fill="#161b22" stroke="{BORDER}"/>')
-        svg.append(f'<circle cx="{trophy_x}" cy="118" r="34" fill="#101722" stroke="{color}" stroke-width="3"/>')
-        svg.append(f'<path d="M {trophy_x - 18} 104 H {trophy_x + 18} V 124 C {trophy_x + 18} 136 {trophy_x - 18} 136 {trophy_x - 18} 124 Z" fill="{color}"/>')
-        svg.append(f'<path d="M {trophy_x - 18} 109 H {trophy_x - 33} C {trophy_x - 34} 126 {trophy_x - 24} 130 {trophy_x - 18} 130" fill="none" stroke="{color}" stroke-width="4" stroke-linecap="round"/>')
-        svg.append(f'<path d="M {trophy_x + 18} 109 H {trophy_x + 33} C {trophy_x + 34} 126 {trophy_x + 24} 130 {trophy_x + 18} 130" fill="none" stroke="{color}" stroke-width="4" stroke-linecap="round"/>')
-        svg.append(f'<rect x="{trophy_x - 8}" y="136" width="16" height="14" rx="3" fill="{color}"/>')
-        svg.append(f'<rect x="{trophy_x - 24}" y="150" width="48" height="8" rx="4" fill="{color}"/>')
-        svg.append(f'<text x="{trophy_x}" y="174" fill="{TEXT}" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">{esc(value)}</text>')
-        svg.append(f'<text x="{trophy_x}" y="193" fill="{BLUE}" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">{esc(title)}</text>')
-        svg.append(f'<text x="{trophy_x}" y="206" fill="{MUTED}" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="middle">{esc(label)}</text>')
-        x += 148
-    svg.append(card_end())
-    write(ASSETS / "trophies.svg", "\n".join(svg))
 
 
 def main() -> int:
@@ -361,9 +299,7 @@ def main() -> int:
 
     generate_stats(repos, profile, extra)
     generate_languages(languages)
-    generate_streak(days)
     generate_activity(days)
-    generate_trophies(repos, profile, days)
     return 0
 
 
