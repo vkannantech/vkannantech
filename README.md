@@ -109,6 +109,7 @@ software services and technical education since 2024, and teaches programming on
 <img src="assets/activity-graph.svg" alt="Kannan V GitHub contributions in the last 30 days" width="100%" />
 
 <!--START_SECTION:activity-->
+1. 🚀 Published release [Paarvix v0.1.0-alpha — Open-Source AI-Native Analytics & Observability Platform](https://github.com/KannanTechOfficial/PAARVIX/releases/tag/v0.1.0-alpha) in [KannanTechOfficial/PAARVIX](https://github.com/KannanTechOfficial/PAARVIX)
 <!--END_SECTION:activity-->
 
 </details>
